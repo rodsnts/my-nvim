@@ -18,6 +18,8 @@ return require('packer').startup(function(use)
 	use('nvim-treesitter/nvim-treesitter', {run = ':TSUpadte'})
 
 	use('nvim-treesitter/playground')
+  
+  use('norcalli/nvim-colorizer.lua')
 
 	use('theprimeagen/harpoon')
 
