@@ -15,6 +15,8 @@ return require('packer').startup(function(use)
 
 	use {'nyoom-engineering/oxocarbon.nvim'}
 
+  use {'rodsnts/component_generator'}
+
   use {'rcarriga/nvim-notify'}
 
 	use('nvim-treesitter/nvim-treesitter', {run = ':TSUpadte'})
