@@ -13,6 +13,8 @@ return require('packer').startup(function(use)
 		requires = { {'nvim-lua/plenary.nvim'} }
 	}
 
+  use { "LinArcX/telescope-command-palette.nvim" }
+
 	use {'nyoom-engineering/oxocarbon.nvim'}
 
   use {'rodsnts/component_generator'}
