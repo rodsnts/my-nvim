@@ -20,9 +20,7 @@ return require('packer').startup(function(use)
     config = function()
       require("barbecue").setup()
     end,
-  })
-  
-  use 'feline-nvim/feline.nvim'
+  }) 
 
 	use {
 		'nvim-telescope/telescope.nvim', tag = '0.1.2',

@@ -1,7 +1,7 @@
 --local custom_horizon = require'lualine.themes.horizon';
 --custom_horizon.normal.c.bg = '#161616'
 
---[[require('lualine').setup {
+require('lualine').setup {
   options = {
     icons_enabled = true,
     theme = 'tokyonight',
@@ -41,4 +41,4 @@
   inactive_winbar = {},
   extensions = {}
 }
---]]
+
