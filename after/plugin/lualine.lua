@@ -1,10 +1,10 @@
-local custom_horizon = require'lualine.themes.horizon';
-custom_horizon.normal.c.bg = '#161616'
+--local custom_horizon = require'lualine.themes.horizon';
+--custom_horizon.normal.c.bg = '#161616'
 
-require('lualine').setup {
+--[[require('lualine').setup {
   options = {
     icons_enabled = true,
-    theme = 'auto',
+    theme = 'tokyonight',
     component_separators = { left = '', right = ''},
     section_separators = { left = '', right = ''},
     disabled_filetypes = {
@@ -41,3 +41,4 @@ require('lualine').setup {
   inactive_winbar = {},
   extensions = {}
 }
+--]]

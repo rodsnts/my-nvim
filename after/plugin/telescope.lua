@@ -13,6 +13,7 @@ require('telescope').setup({
         { "Git files (A-f)", ":lua require('telescope.builtin').git_files()", 1 },
         { "Files (C-f)",     ":lua require('telescope.builtin').find_files()", 1 },
         { "Source file", ":so" },
+        { "Sync packages", ":PackerSync"},
       }
     }
   }
