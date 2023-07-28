@@ -4,24 +4,16 @@ require('telescope').setup({
   extensions = {
     command_palette = {
       {"File",
-        { "generate React component", ":GenerateComponent"},
-        { "entire selection (C-a)", ':call feedkeys("GVgg")' },
-        { "save current file (C-s)", ':w' },
-        { "save all files (C-A-s)", ':wa' },
-        { "quit (C-q)", ':qa' },
-        { "file browser (C-i)", ":lua require'telescope'.extensions.file_browser.file_browser()", 1 },
-        { "search word (A-w)", ":lua require('telescope.builtin').live_grep()", 1 },
-        { "git files (A-f)", ":lua require('telescope.builtin').git_files()", 1 },
-        { "files (C-f)",     ":lua require('telescope.builtin').find_files()", 1 },
-      },
-      {"Help",
-        { "tips", ":help tips" },
-        { "cheatsheet", ":help index" },
-        { "tutorial", ":help tutor" },
-        { "summary", ":help summary" },
-        { "quick reference", ":help quickref" },
-        { "search help(F1)", ":lua require('telescope.builtin').help_tags()", 1 },
-      } 
+        { "Generate React component", ":GenerateComponent"},
+        { "Save current file (C-s)", ':w' },
+        { "Save all files (C-A-s)", ':wa' },
+        { "Save and quit all (C-q)", ':wqa' },
+        { "File browser (C-i)", ":lua require'telescope'.extensions.file_browser.file_browser()", 1 },
+        { "Search word (A-w)", ":lua require('telescope.builtin').live_grep()", 1 },
+        { "Git files (A-f)", ":lua require('telescope.builtin').git_files()", 1 },
+        { "Files (C-f)",     ":lua require('telescope.builtin').find_files()", 1 },
+        { "Source file", ":so" },
+      }
     }
   }
 })
