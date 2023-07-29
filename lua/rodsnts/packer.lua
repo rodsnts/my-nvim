@@ -7,6 +7,8 @@ return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
 
+  use { 'dstein64/vim-startuptime' }
+
   use { 'folke/tokyonight.nvim' }
 
   use { 'sindrets/diffview.nvim' }
@@ -44,7 +46,7 @@ return require('packer').startup(function(use)
 
   use { 'rcarriga/nvim-notify' }
 
-  use('nvim-treesitter/nvim-treesitter', { run = ':TSUpadte' })
+  use('nvim-treesitter/nvim-treesitter')
 
   use('nvim-treesitter/playground')
 
