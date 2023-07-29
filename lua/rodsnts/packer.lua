@@ -9,6 +9,8 @@ return require('packer').startup(function(use)
 
   use { 'folke/tokyonight.nvim' }
 
+  use { 'sindrets/diffview.nvim' }
+
   use { 'neovim/nvim-lspconfig' }
 
   use { 'jose-elias-alvarez/null-ls.nvim' }
