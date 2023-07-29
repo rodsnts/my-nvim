@@ -7,6 +7,13 @@ return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
 
+  use {
+    'folke/todo-comments.nvim',
+    requires = { "nvim-lua/plenary.nvim" },
+  }
+
+  use { 'folke/trouble.nvim' }
+
   use "lukas-reineke/indent-blankline.nvim"
 
   use { 'dstein64/vim-startuptime' }
