@@ -19,6 +19,10 @@ require("nvim-tree").setup({
   filters = {
     dotfiles = false,
   },
+  git = {
+    enable = true,
+    ignore = false
+  }
 })
 
 vim.cmd([[autocmd VimEnter * NvimTreeOpen]])
