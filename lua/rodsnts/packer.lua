@@ -4,6 +4,13 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
 
   use {
+    "nvim-telescope/telescope-file-browser.nvim",
+    requires = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
+  }
+
+  use "Djancyp/better-comments.nvim"
+
+  use {
     'folke/todo-comments.nvim',
     requires = { "nvim-lua/plenary.nvim" },
   }
