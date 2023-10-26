@@ -14,6 +14,8 @@ return require('packer').startup(function(use)
 
   use { 'dstein64/vim-startuptime' }
 
+  use { 'folke/noice.nvim', requires = { { 'MunifTanjim/nui.nvim' } } }
+
   use { 'folke/tokyonight.nvim' }
 
   use { 'sindrets/diffview.nvim' }
